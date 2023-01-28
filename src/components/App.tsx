@@ -59,13 +59,13 @@ function App() {
             className="mb-3"
             aria-label="todo-text"
           />
-          <Button
+          {/* <Button
             style={{ height: "36px", margin: "0px 10px" }}
             onClick={addItem}
             aria-label="add-todo-btn"
           >
             Add
-          </Button>
+          </Button> */}
         </div>
 
         {todos.map((item, index) => {
